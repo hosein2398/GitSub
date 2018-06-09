@@ -1,15 +1,15 @@
 <h1 align="center">GitSub</h1>
-Better GitHub.
+
 
 <div align="center">
 
 ![Icon](https://raw.githubusercontent.com/hosein2398/GitSub/master/src/assets/icon-128.png "Icon")
-
+Better GitHub
 
 
 </div>
 
-
+## Screenshots
 <div align="center">
 
 ![Shot](https://raw.githubusercontent.com/hosein2398/GitSub/master/src/assets/screen2.png "Screenshot")
@@ -21,12 +21,13 @@ Better GitHub.
 
 
 ## Installing
--
--
+- Download this repository.
+- Go to `chrome://extensions/` and click on `PACK EXTENSION`
+- Upload the downloaded package.
 
 ## TODO
 
-- [ ] FireFox release.
+- [ ] Firefox release.
 
 
 ### Icon
