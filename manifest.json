@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "GitSup",
+    "homepage_url": "https://github.com/hosein2398/gitsub",
+    "description": "Better GitHub",
+    "version": "0.1.0",
+    "browser_action": {
+        "default_icon": {
+            "16": "./src/assets/icon-16.png",
+            "48": "./src/assets/icon-48.png",
+            "128": "./src/assets/icon-128.png"
+        },
+        "default_popup": "./src/popup/popup.html",
+        "default_title": "GitSup"
+    },
+    "content_scripts": [{
+        "matches": ["https://github.com/*"],
+        "css": ["./src/contentScripts/contentScript.css"],
+        "js": ["./dist/js/main.js"]
+    }],
+    "web_accessible_resources": ["./popup.css"],
+    "permissions": [
+        "tabs", "<all_urls>",
+        "storage"
+    ],
+    "icons": {
+        "16": "./src/assets/icon-16.png",
+        "48": "./src/assets/icon-48.png",
+        "128": "./src/assets/icon-128.png"
+    }
+}

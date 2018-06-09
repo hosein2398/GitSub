@@ -1,0 +1,16 @@
+{
+  "name": "chrome-ext",
+  "description": "Better GitHub",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint  ./src/contentScripts/scrollTop.js  ./src/contentScripts/topMenu.js  ./src/contentScripts/bottomMenu.js  ./src/popup/popup.js --fix"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "gulp": "^3.9.1",
+    "gulp-include": "^2.3.1"
+  }
+}

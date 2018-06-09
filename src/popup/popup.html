@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./popup.css">
+  <title>GitSup</title>
+  <style>
+
+  </style>
+
+
+  <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+    -->
+  <!-- <script src="popup.js"></script> -->
+</head>
+
+<body>
+  <h1>GitSup</h1>
+  <div class="detail">A little better GitHub.</div>
+  <div id="container">
+    <div class="one-select">
+      <div class="left">
+        Show top menu:
+      </div>
+      <div class="right">
+        <input type="checkbox" id="pure-toggle-1" hidden />
+        <label class="pure-toggle brick" for="pure-toggle-1">
+          <span class="fontawesome-ok"></span>
+          <span class="fontawesome-remove"></span>
+        </label>
+      </div>
+    </div>
+    <div class="one-select">
+      <div class="left">
+        Show scroll to up:
+      </div>
+      <div class="right">
+        <input type="checkbox" id="pure-toggle-2"  hidden />
+        <label class="pure-toggle brick" for="pure-toggle-2">
+          <span class="fontawesome-ok"></span>
+          <span class="fontawesome-remove"></span>
+        </label>
+      </div>
+    </div>
+    <div class="one-select">
+      <div class="left">
+        Show bottom menu:
+      </div>
+      <div class="right">
+        <input type="checkbox" id="pure-toggle-3"  hidden />
+        <label class="pure-toggle brick" for="pure-toggle-3">
+          <span class="fontawesome-ok"></span>
+          <span class="fontawesome-remove"></span>
+        </label>
+      </div>
+    </div>
+
+  </div>
+  <script src="./popup.js"></script>
+</body>
+
+</html>
