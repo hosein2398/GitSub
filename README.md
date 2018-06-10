@@ -22,9 +22,9 @@ Better GitHub
 
 
 ## Installing
-- Download this repository.
-- Go to `chrome://extensions/` and click on `PACK EXTENSION`
-- Upload the downloaded package.
+- Download zip file of this repository.
+- Unzip downloaded file and go to `chrome://extensions/`, click on `LOAD UNPACKED`
+- Pick unzipped directory.
 
 ## TODO
 
