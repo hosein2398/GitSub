@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "GitSup",
+    "name": "GitSub",
     "homepage_url": "https://github.com/hosein2398/gitsub",
     "description": "Better GitHub",
     "version": "0.1.0",
