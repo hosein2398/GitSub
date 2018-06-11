@@ -4,7 +4,7 @@ var gulp = require("gulp"),
 gulp.task("scripts", function () {
     console.log("-- gulp is running task 'scripts'");
 
-    gulp.src("src/main.js")
+    gulp.src("src/contentScripts/main.js")
         .pipe(include())
         .on('error', console.log)
         .pipe(gulp.dest("dist/js"));
