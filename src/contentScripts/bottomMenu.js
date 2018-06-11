@@ -12,6 +12,7 @@ chrome.storage.sync.get(['input3'], (result) => {
       });
     }
   }
+
   if (!result.input3) {
     createMenu();
 
