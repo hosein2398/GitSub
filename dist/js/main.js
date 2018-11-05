@@ -85,15 +85,17 @@ chrome.storage.sync.get(['input2'], (result) => {
   if (!result.input2) {
     const newDiv = document.createElement('div');
     newDiv.setAttribute('class', 'go-to-top-extention');
-    const newContent = document.createTextNode('⬆');
-    newDiv.appendChild(newContent);
+    const myImage = new Image(22, 22);
+    // myImage.src = '../../src/assets/arrow-up.svg';
+    myImage.src = chrome.runtime.getURL("src/assets/arrow-up.svg");
+    newDiv.appendChild(myImage);
     document.body.appendChild(newDiv);
 
     newDiv.addEventListener('click', () => {
       /**
-      * TODO:
-      * implement this with requestAnimationFrame
-      */
+       * TODO:
+       * implement this with requestAnimationFrame
+       */
       let top = window.scrollY;
       const myTimeOut = setInterval(() => {
         window.scrollTo(0, top);
@@ -118,7 +120,6 @@ chrome.storage.sync.get(['input2'], (result) => {
     });
   }
 });
-
 
 
 /**

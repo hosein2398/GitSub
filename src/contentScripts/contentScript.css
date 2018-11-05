@@ -60,6 +60,11 @@
     opacity: 0;
 }
 
+.go-to-top-extention img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .numbers-summary-scrolling {
     position: fixed;
     bottom: 0;
@@ -90,12 +95,14 @@
         opacity: 0;
     }
 }
+
 @media only screen and (max-width:800px) {
     .pagehead-actions-scrolling {
         display: none;
     }
-    .numbers-summary-scrolling{
-        display: none ;
+
+    .numbers-summary-scrolling {
+        display: none;
     }
 
 }
