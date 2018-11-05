@@ -18,7 +18,10 @@
         "css": ["./src/contentScripts/contentScript.css"],
         "js": ["./dist/js/main.js"]
     }],
-    "web_accessible_resources": ["./popup.css"],
+    "web_accessible_resources": [
+        "./popup.css",
+        "src/assets/arrow-up.svg"
+    ],
     "permissions": [
         "tabs", "<all_urls>",
         "storage"
