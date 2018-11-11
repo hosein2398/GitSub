@@ -23,7 +23,7 @@ Better GitHub
 
 ## Installing
 - Download zip file of this repository.
-- Unzip downloaded file and go to `chrome://extensions/`, click on `LOAD UNPACKED`
+- Unzip downloaded file and go to `chrome://extensions/`, check `Developer mode`, click on `LOAD UNPACKED`
 - Pick unzipped directory.
 
 ## TODO
